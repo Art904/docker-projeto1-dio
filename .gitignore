@@ -1,23 +1,19 @@
-# Dependências
-node_modules/
+# Ignorar arquivos gerados pelo Docker
+docker-compose.override.yml
+.docker/
 
-# Arquivos de ambiente
+# Ignorar arquivos de ambiente
 .env
 
-# Arquivos gerados
+# Ignorar dependências e builds
+node_modules/
 dist/
 build/
-*.log
 
-# IDE/Editor
+# Ignorar arquivos temporários
+*.log
+temp/
+
+# Ignorar IDEs
 .vscode/
 .idea/
-
-# Sistema
-*.swp
-*.swo
-*.bak
-
-# Ignorar uploads ou arquivos temporários
-uploads/
-temp/
