@@ -1,0 +1,23 @@
+# Dependências
+node_modules/
+
+# Arquivos de ambiente
+.env
+
+# Arquivos gerados
+dist/
+build/
+*.log
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# Sistema
+*.swp
+*.swo
+*.bak
+
+# Ignorar uploads ou arquivos temporários
+uploads/
+temp/
